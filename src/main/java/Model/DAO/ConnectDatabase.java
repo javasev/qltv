@@ -16,7 +16,7 @@ public class ConnectDatabase {
 		
 		String username = "root";
 		String password = "tuan1204";
-//		String password = "KROmim21616";
+
 		Class.forName("com.mysql.jdbc.Driver");
 		Connection conn = (Connection) DriverManager.getConnection(dbURL, username, password);
 		if (conn != null) {
